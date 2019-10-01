@@ -1,4 +1,4 @@
->>> def main():
+def main():
 	sentence = input("Please Enter Your Sentence: ")
 	num_characters= len(sentence)
 	print ("Number of characters:" , num_characters)
@@ -7,4 +7,4 @@
 	avg_word_length= float(num_characters/num_words)
 	print("Average word length:", avg_word_length)
 
->>> main()
+main()
